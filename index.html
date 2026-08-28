@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I4UG — Institute for Ultimate Good. Education, character, nature, and compassion in action." />
+    <title>I4UG — Institute for Ultimate Good</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="I4UG home">
+        <span class="brand-mark">i<span>4</span>ug</span>
+        <span class="brand-name">Institute for Ultimate Good</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Primary navigation">
+        <a href="#about">Our vision</a>
+        <a href="#programs">Our work</a>
+        <a href="#join">Get involved</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="sun-orbit" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">I4UG — Institute for Ultimate Good</p>
+          <h1>Growing good <em>from the inside out.</em></h1>
+          <p class="hero-text">We nurture thoughtful, resilient people who care for themselves, one another, and the living world.</p>
+          <a class="button button-dark" href="#join">Join the movement <span>→</span></a>
+        </div>
+        <div class="hero-art" aria-label="Young people finding joy and connection outdoors">
+          <div class="photo-main"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Person meditating outdoors" /></div>
+          <div class="photo-corner"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&amp;fit=crop&amp;w=600&amp;q=85" alt="Sunlight through a green forest" /></div>
+          <div class="hero-stamp">Care<br />is a practice</div>
+          <p>education · character · nature · compassion</p>
+        </div>
+      </section>
+
+      <section class="intro" id="about">
+        <p class="eyebrow">A whole-human approach</p>
+        <h2>A better future begins with the way we learn to be.</h2>
+        <p>At I4UG, we bring timeless wisdom and practical action together. Our programs give young people the inner tools and shared purpose to create meaningful change—wherever they are.</p>
+      </section>
+
+      <section class="programs" id="programs">
+        <div class="section-heading">
+          <p class="eyebrow">Our work</p>
+          <h2>Four roots. One flourishing community.</h2>
+        </div>
+        <div class="program-grid">
+          <article class="program-card orange"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&amp;fit=crop&amp;w=720&amp;q=80" alt="Meditation in a mountain landscape" /><span class="number">01</span><h3>Yoga &amp;<br />Meditation</h3><p>Creating space for presence, balance, and self-understanding.</p></article>
+          <article class="program-card blue"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=720&amp;q=80" alt="Young people sharing a joyful moment" /><span class="number">02</span><h3>Youth<br />Development</h3><p>Helping young people discover their voice, confidence, and path.</p></article>
+          <article class="program-card lime"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=720&amp;q=80" alt="Students working together in a classroom" /><span class="number">03</span><h3>Character<br />Education</h3><p>Building the courage, empathy, and integrity to lead with heart.</p></article>
+          <article class="program-card rose"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&amp;fit=crop&amp;w=720&amp;q=80" alt="Green forest canopy" /><span class="number">04</span><h3>Nature &amp;<br />Sustainability</h3><p>Deepening our connection to the earth and our responsibility to it.</p></article>
+        </div>
+      </section>
+
+      <section class="service-banner">
+        <div class="service-image"><img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Volunteers working together in their community" /></div>
+        <div><p class="eyebrow">In practice</p><h2>Goodness grows<br />when it is shared.</h2></div>
+        <div class="service-detail"><span class="service-icon">♥</span><h3>Community Service</h3><p>We turn compassion into participation—creating opportunities to show up, contribute, and care together.</p></div>
+      </section>
+
+      <section class="join" id="join">
+        <p class="eyebrow">Be part of it</p>
+        <h2>Let’s grow something<br /><em>good together.</em></h2>
+        <p>Whether you’re a student, educator, family, or community partner, there’s a place for you here.</p>
+        <a class="button button-light" href="mailto:hello@i4ug.org">Connect with I4UG <span>→</span></a>
+      </section>
+    </main>
+
+    <footer><a class="brand-mark" href="#home">i<span>4</span>ug</a><p>Institute for Ultimate Good</p><p>© <span id="year"></span> I4UG</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
